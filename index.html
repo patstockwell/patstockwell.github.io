@@ -3,62 +3,100 @@
 <head>
     <meta charset="utf-8">
     <title>Patrick Stockwell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:800|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/rocket.ico">
 </head>
 <body>
-    <nav>
-        <a class="contact" target="_blank" href="https://github.com/patstockwell/contact/blob/master/README.md">Contact</a>
-    </nav>
-    <div class="jumbotron">
+    <!-- <nav class="fixed-top"> -->
+    <!-- </nav> -->
+    <div class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <h1 class="display-5 py-3">Hello, my name is Patrick. I am a front-end developer living in Melbourne, Australia.</h1>
-                    <p></p>
+                <div class="col-md-10">
+                    <h1 class="display-1 py-3">Patrick Stockwell</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <div class="picture"></div>
-
-                </div>
-            </div>
-
+            <a class="anchor-me" target="_blank" href="https://github.com/patstockwell/contact/blob/master/README.md">Contact</a>
         </div>
     </div>
 
-    <div class="about py-5">
+    <div class="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-8">
                     <h2 class="py-3">Work</h2>
-                    <!-- <p>I'm a web developer, , jazz guitarist, </p> -->
+                    <a class="anchor-me" data-toggle="collapse" href="#littlepay">littlepay.com</a>
+                    <div class="collapse infodrop" id="littlepay">
+                        <div class="card-block">
+                            <h4 class="mb-2">Website redesign for Australian fintech startup littlepay.</h4>
+                            <p class="card-text sans  text-muted">While working at littlepay, I designed and implemented a new website to coincide with the launch of their core payment product. Built from the ground up, the site uses bootstrap 4, custom animations and parallax, and loads <a target="_blank" href="https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint">first meaningful paint</a> in less than one second.</p>
+                            <a href="https://www.littlepay.com" target="_blank" class="card-link btn btn-info">Visit littlepay.com</a>
+                        </div>
+                    </div>
+                    <a class="anchor-me" data-toggle="collapse" href="#stanislavski">stanislavskimusic.com</a>
+                    <div class="collapse infodrop" id="stanislavski">
+                        <div class="card-block">
+                            <h4 class="mb-2">Website for Melbourne-based musician and drummer.</h4>
+                            <p class="card-text sans  text-muted">Anthony and I have worked together in the music industry for many years, and recently I put together a personal site for his work. As a teacher and a performer, he needed to showcase two distinct sides of his business. The landing page acts as gateway to both sides. The site was built using <a target="_blank" href="http://getskeleton.com/">a lightweight framework called skeleton.</a></p>
+                            <a href="https://www.stanislavskimusic.com" target="_blank" class="card-link btn btn-info">Visit stanislavskimusic.com</a>
+                        </div>
+                    </div>
+                    <a class="anchor-me" data-toggle="collapse" href="#codepen">Spinner</a>
+                    <div class="collapse infodrop" id="codepen">
+                        <div class="card-block">
+                            <h4 class="mb-2">Loading spinner design</h4>
+                            <p class="card-text sans  text-muted">HTML and CSS spinner. Code available on my codepen profile
+                            <div class="box-place">
+                                <div id="loader-wrapper">
+                                    <div id="loader1" class="loader"></div>
+                                    <div id="loader2" class="loader"></div>
+                                    <div id="loader3" class="loader"></div>
+                                    <div id="loader4" class="loader"></div>
+                                    <div id="loader5" class="loader"></div>
+                                </div>
+                            </div>
+                            </p>
+                            <a href="https://codepen.io/patstockwell/" target="_blank" class="card-link btn btn-info">Visit codepen.io</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="offset-md-1">
-                    <!-- nothing here -->
-                </div>
-                <div class="col-md-3">
-                    <a class="example-link" href="http://www.stanislavskimusic.com" target="_blank">
-                        <img class="example-work" src="images/stanislavskimusic.jpg" alt="Stanislavski Music.com website">
-                    </a>
-                    <p>stanislavskimusic.com</p>
-                </div>
-                <div class="col-md-3">
-                    <a class="example-link" href="http://www.littlepay.com" target="_blank">
-                        <img class="example-work" src="images/littlepay.jpg" alt="">
-                    </a>
-                    <p>littlepay.com</p>
-                </div>
-                <div class="col-md-3">
-                    <!-- nothing here -->
+                <div class="col-md-8">
+                    <h2 class="py-3">Writing</h2>
+                    <a class="anchor-me" target="_blank" data-toggle="collapse" href="#medium">Medium</a>
+                    <div class="collapse infodrop" id="medium">
+                        <div class="card-block">
+                            <h4 class="mb-2">Blog post "Java to JavaScript, a habits tale".</h4>
+                            <p class="card-text sans  text-muted">I read a lot - fiction, non-fiction, books, blogs, articles. As much for myself as for others, I wrote a piece describing part of my journey into the Javascript universe.</p>
+                            <a href="https://medium.com/@stockwellpatrick/java-to-javascript-a-habits-tale-5be76dc2fc1a" target="_blank" class="card-link btn btn-info">Visit medium.com</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="py-3">Find me</h2>
+                    <a class="anchor-me" target="_blank" href="https://github.com/patstockwell">Github</a>
+                    <a class="anchor-me" target="_blank" href="https://github.com/rmit-s3588948-patrick-stockwell">Github (RMIT)</a>
+                    <a class="anchor-me" target="_blank" href="https://twitter.com/patstockwell">Twitter</a>
+                    <a class="anchor-me" target="_blank" href="https://www.codewars.com/users/patstockwell/completed">Codewars</a>
+                    <a class="anchor-me" target="_blank" href="https://au.linkedin.com/in/stockwellpatrick">LinkedIn</a>
+        			<a class="anchor-me" target="_blank" href="http://stackoverflow.com/users/5647862/patrick-stockwell">Stack Overflow</a>
+                    <a class="anchor-me" target="_blank" href="https://soundcloud.com/patrick-stockwell/get-moss">SoundCloud</a>
+                    <a class="anchor-me" target="_blank" href="https://www.youtube.com/channel/UCVlF7vHpyJN1hK8fh2qfumg">YouTube</a>
+                </div>
+            </div>
+            <div class="py-5"></div>
+        </div>
+
         </div>
     </div>
-
-
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
