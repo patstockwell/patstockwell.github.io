@@ -126,3 +126,11 @@ body {
 .box-place {
     height: 100px;
 }
+
+.small-link {
+    font-size: 100%
+}
+
+.small-link:hover {
+    color: #058eff;
+}
