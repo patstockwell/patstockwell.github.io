@@ -1,6 +1,18 @@
 /*Jumbotron*/
 body {
-    font-family: 'Catamaran', 'Open Sans', sans-serif;
+    font-family: monospace;
+}
+
+@media(max-width: 500px) {
+  .hero-heading {
+      font-size: 60px;
+  }
+}
+
+.hero-heading {
+  -ms-transform: rotate(4deg); /* IE 9 */
+  -webkit-transform: rotate(4deg); /* Safari */
+  transform: rotate(4deg);
 }
 
 .anchor-me {
@@ -39,10 +51,6 @@ body {
 .infodrop {
     border: 1px #ddd solid;
     border-radius: 5px;
-}
-
-.sans {
-    font-family: 'Open Sans';
 }
 
 #loader-wrapper {

@@ -1,2 +1,4 @@
 # patstockwell.github.io
-My personal site for me and my projects
+A site for me and my projects.
+
+I like monospace.
